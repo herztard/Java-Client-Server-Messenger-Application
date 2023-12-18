@@ -1,0 +1,66 @@
+@font-face {
+    -fx-font-family: 'Montserrat-SemiBold';
+    src: url('fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+    -fx-font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.ttf');
+}
+
+.root {
+    -fx-background-color: #181818;
+    -fx-border-color: transparent;
+}
+
+.text-field{
+    -fx-cursor: pointer;
+    -fx-font-family: Montserrat;
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-background-radius: 10;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #676767;
+    -fx-font-weight: 600;
+    -fx-font-size: 10px;
+    -fx-border-width: 2;
+    -fx-border-color: white;
+    -fx-border-radius: 40;
+    -fx-min-height: 40;
+    -fx-min-width: 270;
+}
+
+.text-field:focused{
+    -fx-border-color: #34bcf8;
+    -fx-background-color: transparent;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 10px;
+    -fx-font-family: Montserrat;
+}
+
+.sent-button{
+    -fx-cursor: pointer;
+    -fx-font-family: Montserrat;
+    -fx-background-color: rgba(0, 0, 0, 0);
+    -fx-border-color: white;
+    -fx-border-width: 2px;
+    -fx-border-radius: 30px;
+    -fx-background-radius: 30px;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: 900;
+    -fx-font-size: 16px;
+
+}
+
+.sent-button:hover{
+    -fx-border-color: #34bcf8;
+    -fx-text-fill: #181818;
+    -fx-background-color: #34bcf8;
+    -fx-cursor: pointer;
+}
+
+.label-montserrat {
+    -fx-font-family: Montserrat;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 24pt;
+}
